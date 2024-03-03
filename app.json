@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "scheme": "mobicomdealerapp",
+    "name": "mobidealer",
+    "slug": "dealer",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./app/assets/dealer_new_icon.png",
+    "splash": {
+      "image": "./app/assets/dealer_new_icon.png",
+      "resizeMode": "contain" 
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mn.mobicom.mobidealer",
+      "buildNumber": "0.0.13",
+      "icon": "./app/assets/dealer_new_icon.png",
+      "infoPlist": {
+        "UIRequiresFullScreen": true
+      },
+      "splash": {
+        "image": "./app/assets/dealer_new_icon.png",
+        "resizeMode": "contain" 
+      }
+    },
+    "android": {
+      "package": "mn.mobicom.mobidealer",
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/dealer_new_icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 15,
+      "icon": "./app/assets/dealer_new_icon.png"
+    },
+    "web": {
+      "favicon": "./app/assets/dealer_new_icon.png"
+    },
+    "description": "Dealer mobile application.",
+    "githubUrl": "https://github.com/battuya221/dealerapp",
+    "primaryColor": "#9b003e",
+    "extra": {
+      "eas": {
+        "projectId": "850db2e8-d1d3-40a8-b023-1cde3d4f239b"
+      }
+    },
+    "owner": "tuku9911"
+  }
+}
